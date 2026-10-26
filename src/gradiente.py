@@ -1,5 +1,4 @@
 # derivadas parciais e gradiente da imagem
-
 import numpy as np
 
 # calcula |grad f| = raiz((df/dx)^2 + (df/dy)^2) em cada pixel
