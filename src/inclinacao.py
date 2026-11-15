@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from .gradiente import magnitude_gradiente
 
-ANGULOS_TESTADOS = np.arage(-15, 15.25, 0.25)
+ANGULOS_TESTADOS = np.arange(-15, 15.25, 0.25)
 LADO_MAXIMO = 800
 
 # função objetivo para variância da soma dos pixels de cada linha
