@@ -2,7 +2,7 @@
 from PIL import Image
 
 # gira a imagem pelo ângulo estimado, mantendo a página inteira.
-def corrigir_inclinação (imagem: Image.Image, angulo: float) -> Image.Image:
+def corrigir_inclinacao (imagem: Image.Image, angulo: float) -> Image.Image:
     return imagem.rotate(
         angulo,
         resample = Image.Resampling.BICUBIC,
